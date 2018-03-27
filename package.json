@@ -1,0 +1,16 @@
+{
+  "name": "goodspot-api",
+  "version": "0.1.0",
+  "description": "Quick'n'dirty API for TheGoodSpot app, used in Hackademy's Vue.js tutorial",
+  "main": "index.js",
+  "author": "neemzy <tpanier@synbioz.com>",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "fixtures": "rm -rf data ; cp -r fixtures data"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-persist": "^2.1.0"
+  }
+}
